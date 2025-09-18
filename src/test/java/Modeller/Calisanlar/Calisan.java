@@ -50,7 +50,7 @@ public class Calisan {
         }
     }
 
-    //taner
+
 
 
     private void setCalisanId() {
