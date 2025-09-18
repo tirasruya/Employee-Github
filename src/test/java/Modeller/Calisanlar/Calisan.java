@@ -50,6 +50,8 @@ public class Calisan {
         }
     }
 
+    //taner
+
 
     private void setCalisanId() {
         // TODO setCalisanId() methodunu doldurunuz
