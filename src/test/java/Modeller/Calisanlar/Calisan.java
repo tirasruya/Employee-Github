@@ -69,6 +69,15 @@ public class Calisan {
         // Basit string metodlari ise isinize cok yarayacaktir fakat dinamik olmasina dikkat edelim...
         // Mesela 2 isim bir soyisim girildiğinde hata vermesin.
 
+        String[] parca = adSoyad.trim().split("\\s+");
+        String soyisim = parca[parca.length-1];
+
+        StringBuilder isimKodu= new StringBuilder();
+        for (int i = 0; i < parca.length -1; i++) {
+            isimKodu.append(parca[i].charAt(0));
+            
+        }
+
         // TODO EFE
 
 
