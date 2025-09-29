@@ -51,9 +51,11 @@ public class Calisanlar {
     public static void printCalisanlar() {
 
         // TODO  Calisanlari konsola yazdirmak için printCalisanlar() methodunu doldurun
-
-
         // TODO ASLIHAN
+
+        for (Calisan calisan : calisanList) {
+            System.out.println(calisan);
+        }
 
 
     }

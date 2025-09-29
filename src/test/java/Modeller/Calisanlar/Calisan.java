@@ -106,8 +106,14 @@ public class Calisan {
 
         // TODO zamYap() methodunu doldurunuz
         // İpucu:Calisan ID si kullanilarak yapilmalidir, diğer attributelarin aynilarindan 1 er tane daha olabilirdi.
+            // TODO ASLIHAN
 
-        // TODO ASLIHAN
+            for (Calisan calisan : Calisanlar.getCalisanList()) {
+                if (calisan.getCalisanId().equalsIgnoreCase(calisanId)) {
+                    calisan.maas = calisan.maas + (calisan.maas * calisan.Departman.getZamOrani() / 100);
+                    break;
+                }
+            }
 
     }
 
