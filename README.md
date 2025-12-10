@@ -30,10 +30,4 @@ Each employee has a **unique ID**, and salary increases are applied using **fixe
 Employee ID : 'BTD1IK', Full Name : 'Ilker Kula', Salary : '25000', Department : 'Information Technologies'
 
 
----
-
-## 📝 License  
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
-This project is licensed under the [MIT License](LICENSE).  
 
